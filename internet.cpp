@@ -51,7 +51,7 @@ int _tmain(int argc, _TCHAR*argv[])
         break;
         if(LOBYTE(wsaData.wVersion != 2) || HIBYTE(wsaData.wVersion) != 2)
         break;
-        string url = "www.wmpic.me/meinv";
+        string url = "www.baidu.com";
         string strHost, strResource;
         ParseUrl(url, strHost, strResource);
         hostent *hServer = gethostbyname(strHost.c_str());
